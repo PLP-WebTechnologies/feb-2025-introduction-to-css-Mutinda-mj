@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> WEEK THREE STYLING</title>
+        <!-- 2. internal css-->
+        <style>
+            .highlight{
+                color:white;
+                font-size: 20px;
+            }
+            img{
+                border: 5px solid red;
+                border-radius: 10px;
+                margin: 20px 200px;
+            }
+            footer{
+                text-align: center;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+         </style>
+         <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <!--1. in line css-->
+    <body style="background-color: cadetblue;">
+        <h1>Welcome to my webpage</h1>
+        <p>This website is created to help improve the interactivity of students sharing same community</p>
+        <img src="c:\Users\user\OneDrive\Pictures\2023-Rolls-Royce-Spectre-Launch-1.jpg" alt="" width="1000" height="700">
+        <footer>
+            <p class="highlight">&copy; 2025.All rights reserved.</p>
+        </footer>
+
+    </body>
+</html>
